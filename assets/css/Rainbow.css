@@ -1,0 +1,29 @@
+/* Rainbow.css */
+#shadowBox {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 3px solid;
+}
+
+.rainbow {
+  text-decoration: underline;
+}
+.rainbow_text_animated {
+  background: linear-gradient(45deg, #ff0d8e, #105ca3, #5200ff, #10a359);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}

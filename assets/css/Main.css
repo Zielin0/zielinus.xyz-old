@@ -1,0 +1,270 @@
+/* All pages default styling */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Rowdies', sans-serif;
+  box-sizing: border-box;
+}
+
+/* main page */
+.main-content {
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #101010;
+  text-align: center;
+}
+
+.heading {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  justify-content: center;
+  padding-top: 75px;
+  font-weight: 700;
+}
+
+.heading h1 {
+  font-size: 105px;
+  color: #fdfdfd;
+}
+
+.heading h2 {
+  padding-top: 60px;
+  font-size: 45px;
+  color: #dfdfdf;
+}
+
+.heading h3 {
+  padding-top: 40px;
+  font-size: 25px;
+  color: #fdfdfd;
+}
+
+.content-body {
+  margin-top: 85px;
+  display: block;
+  width: 90%;
+  margin: 100px auto;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.btn-a {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  margin: 50px 100px;
+}
+
+.button {
+  width: 455px;
+  height: 115px;
+  display: inline-flex;
+  border: double 5px transparent;
+  border-radius: 35px;
+  background-image: linear-gradient(#212121, #212121),
+    linear-gradient(45deg, #ff0d8e, #105ca3, #5200ff, #10a359);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  color: #dedede;
+  font-size: 65px;
+}
+
+.btn-text {
+  font-weight: 500;
+  padding: 15px 50px;
+}
+
+.about {
+  padding: 15px 110px;
+}
+
+.content-social {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.social {
+  width: 480px;
+  height: 95px;
+  /* margin-top: -75px; */
+  margin: -70px auto 0 auto;
+  box-shadow: 0px 0px 25px 2px rgba(192, 13, 255, 0.1);
+  border-radius: 20px;
+  background-color: #141414;
+}
+
+i {
+  padding: 22px 25px;
+  font-size: 50px;
+  transition: 0.4s ease-in-out;
+}
+
+i:hover {
+  transform: scale(1.15);
+}
+
+/* <i></i> colors */
+.fa-github {
+  color: #dbdbdb;
+}
+
+.fa-discord {
+  color: #5865f2;
+}
+
+.fa-youtube {
+  color: #e52d27;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+/* footer */
+footer {
+  margin-top: 140px;
+  height: 50px;
+  justify-content: center;
+}
+
+#info {
+  font-size: 22px;
+  color: #686868;
+  opacity: 50%;
+  filter: blur(1px);
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1505px) {
+  .heading {
+    padding-top: 45px;
+  }
+  .heading h1 {
+    font-size: 70px;
+  }
+  .heading h2 {
+    font-size: 30px;
+  }
+  .content-body {
+    margin-top: 45px;
+    margin: 50px auto;
+  }
+  .btn-a {
+    margin: 25px 50px;
+  }
+  .button {
+    width: calc(455px / 3);
+    height: calc(115px / 3);
+    font-size: calc(35px / 2);
+  }
+  .btn-text {
+    padding: 7.5px 30px;
+  }
+  .about {
+    padding: 7.5px 45px;
+  }
+  .social {
+    width: calc(480px / 1.5);
+    height: calc(90px / 1.5);
+    margin: 0 auto;
+  }
+  i {
+    padding: 17px 17.5px;
+    font-size: 25px;
+  }
+  footer {
+    margin-top: calc(150px / 2);
+    height: 35px;
+  }
+  #info {
+    font-size: 11px;
+  }
+}
+
+/* about me page */
+
+.container {
+  margin-top: -50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.qna {
+  text-align: left;
+  margin: 20px;
+}
+
+.btn-wrap {
+  margin-top: 25px;
+}
+
+.btn-a.abt-b {
+  margin: 100px 50px;
+}
+.button.abt-b {
+  width: calc(455px / 2.5);
+  height: calc(115px / 2.5);
+  font-size: calc(35px / 1.75);
+}
+.btn-text.abt-b {
+  padding: 10px 50px;
+}
+
+footer.abt-f {
+  margin-top: 95px;
+}
+
+@media only screen and (max-width: 1505px) {
+  .heading h3 {
+    font-size: 17.5px;
+  }
+  .btn-wrap {
+    margin-top: 15px;
+  }
+
+  .btn-a.abt-b {
+    margin: 100px 50px;
+  }
+  .button.abt-b {
+    width: calc(455px / 3);
+    height: calc(115px / 1.9);
+    font-size: calc(35px / 2);
+  }
+  .btn-text.abt-b {
+    padding: 10px 50px;
+  }
+
+  footer.abt-f {
+    margin-top: 25px;
+  }
+}
+/* projects page */
+.link {
+  -moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+  -webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+  -ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+  transition: color 0.2s ease, border-bottom-color 0.2s ease;
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+  border-bottom-color: transparent;
+  color: #ffffff;
+}
+
+.el {
+  text-align: center;
+  margin: 7.5px;
+}
