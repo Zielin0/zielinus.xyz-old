@@ -65,14 +65,30 @@ body {
   width: 455px;
   height: 115px;
   display: inline-flex;
-  border: double 5px transparent;
+  border: solid 4px #ff0d8e;
   border-radius: 35px;
-  background-image: linear-gradient(#212121, #212121),
-    linear-gradient(45deg, #ff0d8e, #105ca3, #5200ff, #10a359);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
   color: #dedede;
   font-size: 65px;
+  transition: 0.4s ease-in-out;
+}
+
+.btn-a:hover > .button:hover {
+  animation: anim 4s ease-in-out infinite;
+}
+
+@keyframes anim {
+  0% {
+    border: solid 4px #ff0d8e;
+  }
+  25% {
+    border: solid 4px #105ca3;
+  }
+  50% {
+    border: solid 4px #5200ff;
+  }
+  75% {
+    border: solid 4px #10a359;
+  }
 }
 
 .btn-text {
