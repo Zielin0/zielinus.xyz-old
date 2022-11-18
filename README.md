@@ -4,6 +4,10 @@ I recoded my website in 2.5h
 
 I think it looks better now
 
+## TODO
+
+- [ ] Make a better website
+
 ### See it [here](https://www.zielinus.gq/)
 
 ## Old website src
