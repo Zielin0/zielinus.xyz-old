@@ -4,16 +4,17 @@ I recoded my website in 2.5h
 
 I think it looks better now
 
+(I don't like it anymore. New one inc.)
+
 ## TODO
 
 - [ ] Make a better website
 
-### See it [here](https://www.zielinus.gq/)
+### See it [here](https://www.zielinus.xyz/)
 
 ## Old website src
 
 Branch of old website in this repository [here](https://github.com/Zielin0/zielinus.xyz/tree/old)
-Archived repository of older website [here](https://github.com/Zielin0/zielino-web)
 
 ## License
 
