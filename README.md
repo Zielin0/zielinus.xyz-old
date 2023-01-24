@@ -1,3 +1,7 @@
+## Repository archived
+
+New website here -> [Zielin0/zielinus.xyz](https://github.com/Zielin0/zielinus.xyz)
+
 # zielinus.xyz
 
 I recoded my website in 2.5h
@@ -8,7 +12,7 @@ I think it looks better now
 
 ## TODO
 
-- [ ] Make a better website
+- [x] Make a better website
 
 ### See it [here](https://www.zielinus.xyz/)
 
